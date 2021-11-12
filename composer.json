@@ -1,0 +1,33 @@
+{
+    "name": "landofcoder/module-seller-razorpay-payment",
+    "description": "Magento 2 Razorpay Payment compatible with Landofcoder Marketplace",
+    "require": {
+      "razorpay/magento": "3.*"
+    },
+    "keywords": [
+      "razorpay",
+      "magento",
+      "payments",
+      "payment gateway",
+      "wallets",
+      "razorpay magento 2 payment",
+      "magento 2 razorpay for marketplace",
+      "magento 2 marketplace",
+      "magento 2 multi vendor"
+    ],
+    "homepage": "https://landofcoder.com",
+    "support": {
+      "email": "landofcoder@gmail.com"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Lofmp\\Razorpay\\": ""
+        }
+    }
+}
